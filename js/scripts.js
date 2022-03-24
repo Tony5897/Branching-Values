@@ -7,8 +7,10 @@ $(document).ready(function() {
 
       if (dark + animal >= 3) {
         $("#batman").show();
+        $("#spiderman").hide();
       }  else {
         $("#spiderman").show();
+        $("#batman").hide();
       }
       
   });
